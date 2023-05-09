@@ -1,6 +1,6 @@
 library(ggplot2)
 
-setwd("~/Dropbox/Azole 2022 Paper/PCA/paper_pca/noOutliers")
+setwd("~/set/working/path")
 
 # LOAD PHENOTYPE DATA
 ind <- read.table("~/path/to/ind/file.txt", header = FALSE, 

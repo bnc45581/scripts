@@ -7,8 +7,7 @@ ind <- read.table("~/path/to/ind/file.txt", header = FALSE,
                   col.names = c("ID","Sex", "Clade"))
 head(ind)
 
-# LOAD DATA WITH OUTLIERS
-# WITH OUTLIERS
+# LOAD DATA
 data <- read.table("~/path/to/evec/file.evec", 
                    col.names = c("ID","PC1","PC2","PC3","PC4","PC5","PC6","PC7","PC8","PC9","PC10","Clade"))
 head(data)

@@ -34,7 +34,7 @@ percent = subset(eval.percents, select = -c(1,2) )
 
 
 # MERGE FILES
-merged <- merge(data1,ind, by = "ID")
+merged <- merge(data,ind, by = "ID")
 head(merged)
 
 # VISUALIZE PCA
